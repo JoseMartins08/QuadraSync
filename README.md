@@ -64,33 +64,30 @@ Este projeto é o **Trabalho de Conclusão de Curso (TCC)** da turma **3°DS-A**
 
 ```
 QuadraSync/
-├── docs/                  # Documentação do TCC (ABNT, casos de teste, requisitos)
-│   ├── assets/            # Logotipo e imagens do projeto
+├── docs/                  # Documentação e materiais do TCC
+│   └── assets/            # Imagens e recursos da documentação
 │
-├── backend/                # API e regras de negócio
-│    ├── src/
-│    │     ├── config/
-│    │     ├── controllers/
-│    │     ├── middlewares/
-│    │     ├──routes/
-│    └──         └── server.js
+├── backend/
+│   └── src/
+│       ├── config/        # Configurações da aplicação
+│       ├── controllers/   # Regras de controle das requisições
+│       ├── middlewares/   # Middlewares de autenticação e validação
+│       ├── routes/        # Definição das rotas da API
+│       └── server.js      # Inicialização do servidor
 │
-├── database/
-│
-├── docs/
-│    └── assets/
+├── database/              # Scripts e arquivos relacionados ao banco de dados
 │
 ├── frontend/
-│    ├── .claude/
-│    ├── assets/
-│    ├── components/
-│    ├── config/
-│    └── telas/
+│   ├── .claude/           # Configurações e regras auxiliares do projeto
+│   ├── assets/            # Imagens e recursos da interface
+│   ├── components/       # Componentes reutilizáveis da interface
+│   ├── config/            # Configurações do frontend
+│   └── telas/             # Telas da aplicação
 │
-├── AI_RULES.md.txt
-│
-├── README.md
-└── LICENSE
+├── AI_RULES.md.txt        # Regras e orientações para uso de IA no projeto
+├── README.md              # Documentação principal do projeto
+└── LICENSE                # Licença de uso do projeto
+
 ```
 
 ---
