@@ -68,7 +68,26 @@ QuadraSync/
 │   ├── assets/            # Logotipo e imagens do projeto
 │
 ├── backend/                # API e regras de negócio
-│   └── database/          # Scripts e modelagem do banco de dados
+│    ├── src/
+│    │     ├── config/
+│    │     ├── controllers/
+│    │     ├── middlewares/
+│    │     ├──routes/
+│    └──         └── server.js
+│
+├── database/
+│
+├── docs/
+│    └── assets/
+│
+├── frontend/
+│    ├── .claude/
+│    ├── assets/
+│    ├── components/
+│    ├── config/
+│    └── telas/
+│
+├── AI_RULES.md.txt
 │
 ├── README.md
 └── LICENSE
