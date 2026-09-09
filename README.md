@@ -80,7 +80,7 @@ QuadraSync/
 ├── frontend/
 │   ├── .claude/           # Configurações e regras auxiliares do projeto
 │   ├── assets/            # Imagens e recursos da interface
-│   ├── components/       # Componentes reutilizáveis da interface
+│   ├── components/        # Componentes reutilizáveis da interface
 │   ├── config/            # Configurações do frontend
 │   └── telas/             # Telas da aplicação
 │
