@@ -54,7 +54,7 @@ Este projeto é o **Trabalho de Conclusão de Curso (TCC)** da turma **3°DS-A**
 </div>
 
 - **Frontend Mobile:** React Native (Expo)
-- **Backend:** PHP / Node.js
+- **Backend:** Node.js
 - **Geração de documentação:** Node.js + biblioteca `docx`
 - **Padrão de documentação acadêmica:** ABNT
 
